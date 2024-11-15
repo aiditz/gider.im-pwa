@@ -103,6 +103,7 @@ export const evolu = createEvolu(EvoluDB, {
 	// minimumLogLevel: "trace",
 	// name: "gider.im",
 	indexes,
+	syncUrl: window.EVOLU_SERVER_URL,
 	// ...(process.env.NODE_ENV === "development" && {
 	// 	syncUrl: "http://localhost:4000",
 	// }),
